@@ -1,0 +1,39 @@
+.modal-container .MuiInputBase-input:disabled {
+  color: black;
+  border-bottom: 1px black solid;
+}
+
+.modal-container .form-row {
+  margin-bottom: 15px;
+}
+
+.modal-container .form-button {
+  margin-right: 8px;
+}
+
+.modal-container .chip-wrapper {
+  padding: 8px;
+  background-color: lightgray;
+  min-height: 32px;
+}
+
+.modal-container .chip-icon {
+  height: 20px;
+}
+
+.modal-container .chip-btn-container {
+  float: right;
+}
+
+.chip-typography {
+  padding: 4px;
+}
+
+.chip-label {
+  color: rgba(0, 0, 0, 0.38);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  transform: translate(0, 1.5px) scale(0.75);
+  transform-origin: top left;
+}
