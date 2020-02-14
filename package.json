@@ -1,0 +1,24 @@
+{
+  "name": "extension-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna bootstrap",
+    "lerna-test": "lerna run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5DTeamCore/Extension-Master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5DTeamCore/Extension-Master/issues"
+  },
+  "homepage": "https://github.com/5DTeamCore/Extension-Master#readme",
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
