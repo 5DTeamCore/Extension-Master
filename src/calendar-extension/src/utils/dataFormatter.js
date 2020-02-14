@@ -1,7 +1,7 @@
 import {
   DATE,
 } from '../constants/form.js';
-import getPath from './getPath.js'
+import { getPath } from 'extension-common'
 
 export const formFormatter = (data, formats) => {
   console.log(data);

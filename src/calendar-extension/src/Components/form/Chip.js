@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 
 import InputBase from '@material-ui/core/InputBase';
 
-import validateEmail from '../../utils/validateEmail.js';
+import { validateEmail } from 'extension-common';
 
 const statusMapping = {
   "needsAction": '',
@@ -62,6 +62,7 @@ class ChipWrapper extends React.Component {
   }
 
   onInputChange = (event) => {
+    console.log(validateEmail);
     this.setState({
       input: event.target.value
     })
