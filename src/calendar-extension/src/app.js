@@ -3,6 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Calendar from './Components/calendar';
+import common from 'extension-common';
 
 import test from './test';
 import { getEventRequest } from './utils/api';

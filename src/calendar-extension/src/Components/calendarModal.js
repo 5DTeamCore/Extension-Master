@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 
 import FormFactory from './formFactory';
 import formFactoryConfig from '../constants/formFactoryConfig.js'
-import getPath from '../utils/getPath';
+import { getPath } from 'extension-common';
 import { formFormatter } from '../utils/dataFormatter';
 
 import "react-datepicker/dist/react-datepicker.css";
